@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+  font-family: "outfit", sans-serif;
+  user-select: none;
+}
+@theme {
+  --color-primary: #ffb12f;
+  --color-secondary: #ff12f1;
+}
