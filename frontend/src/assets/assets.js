@@ -23,92 +23,126 @@ import Nice_Blue from "../assets/Nice_Blue.jpg";
 import Panner_back from "../assets/Panner_back.jpg";
 import Panner_front from "../assets/Panner_front.jpg";
 import Sample from "../assets/Sample.png";
+import Kulfi_plate from "../assets/Kulfi_plate.png";
+import Chocobar from "../assets/Chocobar.jpg";
+import IceCake from "../assets/IceCake.jpg";
 
-export const Sample_products=[
-    {
-        id:self.crypto.randomUUID(),
-        product:"Milk Shake",
-        img:Milk_shake,
-        price:30,
-        rating:4.5
-    }, 
-    {
-         id:self.crypto.randomUUID(),
-        product:"Delite Milk",
-        img:Delite,
-        price:30,
-        rating:4.3
-    },
-    {
-         id:self.crypto.randomUUID(),
-        product:"Paneer",
-        img:Panner_front,
-        price:30,
-        rating:4.3
-    },
-    {
-         id:self.crypto.randomUUID(),
-        product:"Curd",
-        img:Curd,
-        price:30,
-        rating:4.3
-    },
-    {
-         id:self.crypto.randomUUID(),
-        product:"Baadham",
-        img:Baadham,
-        price:30,
-        rating:4.3
-    },
-    {
-        id:self.crypto.randomUUID(),
-        product:"kulfi",
-        img:kulfi_box,
-        price:30,
-        rating:4.3
-    },
-    {
-        id:self.crypto.randomUUID(),
-        product:"Butter Biscuit",
-        img:Butter_Biscuit,
-        price:30,
-        rating:4.3
-    },
-     {
-        id:self.crypto.randomUUID(),
-        product:"All_Ghee",
-        img:All_Ghee,
-        price:30,
-        rating:4.3
-    } 
-]
+export const Sample_products = [
+  {
+    id: self.crypto.randomUUID(),
+    product: "Milk Shake",
+    img: Milk_shake,
+    price: 30,
+    rating: 4.5,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "Delite Milk",
+    img: Delite,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "Paneer",
+    img: Panner_front,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "Curd",
+    img: Curd,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "Baadham",
+    img: Baadham,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "kulfi",
+    img: kulfi_box,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "Butter Biscuit",
+    img: Butter_Biscuit,
+    price: 30,
+    rating: 4.3,
+  },
+  {
+    id: self.crypto.randomUUID(),
+    product: "All_Ghee",
+    img: All_Ghee,
+    price: 30,
+    rating: 4.3,
+  },
+];
 
+export const categories = [
+  {
+    id: self.crypto.randomUUID(),
+    img: Nice_Blue,
+    name: "NiceBlue",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Kulfi_plate,
+    name: "Kulfi",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Chocobar,
+    name: "ChocoBar",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Butter_milk,
+    name: "ButterMilk",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: IceCake,
+    name: "IceCake",
+  },
+  {
+    id: self.crypto.randomUUID(),
+    img: Delite,
+    name: "Delitte",
+  },
+];
 
-
-export const assests={
- kulfi,
- Aavin_ad,
- Aavin_banner,
- Aavin_products,
- Baadham,
- Badham,
- Banner,
- Butter_Biscuit,
- Butter_milk,
- Butter_milks,
- Childrens,
- Curd,
- Delite,
- Ghee,
- All_Ghee,
- Cup_ice,
- All,
- kulfi_box,
- Milk_shake,
- Mobile_banner,
- Mobile_banners,
- Nice_Blue,
- Panner_back,
- Panner_front,
- Sample
-}
+export const assests = {
+  kulfi,
+  Aavin_ad,
+  Aavin_banner,
+  Aavin_products,
+  Baadham,
+  Badham,
+  Banner,
+  Butter_Biscuit,
+  Butter_milk,
+  Butter_milks,
+  Childrens,
+  Curd,
+  Delite,
+  Ghee,
+  All_Ghee,
+  Cup_ice,
+  All,
+  kulfi_box,
+  Milk_shake,
+  Mobile_banner,
+  Mobile_banners,
+  Nice_Blue,
+  Panner_back,
+  Panner_front,
+  Sample,
+};

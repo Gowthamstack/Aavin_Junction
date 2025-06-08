@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div ref={ref} className="md:h-25 mb-10">
+    <div ref={ref} className="md:h-25 mb-5">
       <p className="w-10 h-[10vh]"></p>
       <nav
         className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50 

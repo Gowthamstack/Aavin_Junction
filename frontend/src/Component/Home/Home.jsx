@@ -1,13 +1,14 @@
 import React from "react";
-
 import Banner from "./Banner";
 import SampleProduct from "./SampleProduct";
+import Categories from "./Categories";
 
 const Home = () => {
   return (
-    <div className="mb-10 pb-0">
+    <div className="flex flex-col gap-10">
       <Banner />
-      <SampleProduct/>
+      <Categories />
+      <SampleProduct />
     </div>
   );
 };

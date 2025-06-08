@@ -8,7 +8,7 @@ import NotFoundPage from "./Component/NotFound/NotFoundPage";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <div className="">
+    <div className="mb-10">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

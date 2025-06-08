@@ -4,7 +4,7 @@ import Mobile_banner from "../../assets/Mobile_banners.jpg";
 
 const Banner = () => {
   return (
-    <div className="relative flex items-start justify-center min-h-[80vh]">
+    <div className="relative flex items-start justify-center min-h-[80vh] ">
       <img
         src={Mobile_banner}
         alt="MobileImage"
